@@ -1,0 +1,147 @@
+body {
+	font-family: sans-serif;
+	background-color: #ffffff;
+}
+.file-upload {
+	padding: 13% 16%;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: solid 1.5px #ffffff;
+	background-color: #ffffff;
+} /*
+BUTTON */
+.file-upload-btn {
+	width: 100%;
+	margin: 0;
+	color: #fff;
+	background: #1fb264;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 4px solid #15824b;
+	transition: all 0.2s ease;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.file-upload-btn:hover {
+	background: #1aa059;
+	color: #ffffff;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.file-upload-btn:active {
+	border: 0;
+	transition: all 0.2s ease;
+} /* PLACEHOLDER */
+.file-upload-preview {
+	display: none;
+	text-align: center;
+}
+.file-upload-input {
+	position: absolute;
+	margin: 0;
+	padding: 27%;
+	width: 100%;
+	height: 50wv;
+	outline: none;
+	opacity: 0;
+	cursor: pointer;
+}
+.file-upload-placeholder {
+	margin-top: 20px;
+	width: 60%;
+	border: 4px dashed #1fb264;
+	position: relative;
+}
+.image-dropping,
+.file-upload-placeholder:hover {
+	background-color: #1fb264;
+	border: 4px dashed #fff;
+}
+.drag-text {
+	text-align: center;
+}
+.drag-text h3 {
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #15824b;
+	padding: 60px 0;
+} /* PREVIEW */
+.file-upload-image {
+	max-height: 200px;
+	max-width: 200px;
+	margin: auto;
+	padding: 20px;
+} /* REMOVE */
+.file-upload-remove {
+	padding: 0 15px 15px 15px;
+	color: #222;
+}
+.remove-image {
+	width: 200px;
+	margin: 0;
+	color: #fff;
+	background: #cd4535;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 4px solid #b02818;
+	transition: all 0.2s ease;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.remove-image:hover {
+	background: #c13b2a;
+	color: #ffffff;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.remove-image:active {
+	border: 0;
+	transition: all 0.2s ease;
+}
+.nav-distance {
+	padding: 2.1% 7.7%;
+}
+.navbar-brand {
+	line-height: 1.68;
+	text-align: left;
+	color: #35465d;
+}
+.navbar-light .navbar-toggler {
+	border-color: #ffffff;
+}
+.section {
+	margin-top: 50px;
+}
+.title {
+	line-height: 1.67;
+	text-align: center;
+	color: #35465d;
+}
+.subtitle {
+	line-height: 1.53;
+	text-align: center;
+	color: #35465d;
+} /* On screens that are 600px or less, set
+the background color to olive */
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+	.navbar-brand {
+		font-size: 2rem;
+	}
+}
+
+.label-container{
+	color: #ffffff
+}
+
+
+.upload{
+	vertical-align: middle;
+    width: 49%;
+}
